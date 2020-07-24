@@ -1,0 +1,162 @@
+/* CSS RESET */
+*{
+    margin :0;
+    padding:0;
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height:59px;
+}
+body{
+    background: url('../foodbg.jpg');
+    
+}
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items:center;
+    position: relative;
+    background-color: #0005;
+    height:100px;
+}
+
+
+/*Navigation Bar: Logo and Image */
+#logo{
+    margin:3px 5px;
+}
+#logo img{
+    height: 80px;
+    margin: 3px 5px;
+     
+}
+
+/*Navigation Bar: List Styling */
+
+#navbar ul{
+    display:flex;
+}
+
+#navbar ul li{
+    display:flex;
+    /* color: white */
+    list-style: none;
+    font-size:1.3rem;
+}
+#navbar ul li a{
+    display: block;
+    margin-left: 60px;
+    padding:4px 34px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    
+}
+#navbar ul li a:hover{
+    color:brown;
+    background-color: white;
+}
+#navbar .btnn{
+    display:block;
+    height: 35px;
+    width:120px;
+    padding:10px;
+    border: 2px solid red;
+    border-radius: 10px;
+    margin-left:270px;
+}
+#navbar .btnn:hover{
+    color:brown;
+    background-color: white;
+}
+ /* Home Section */
+ #home{
+     display:flex;
+     flex-direction: column;
+     padding: 3px 200px;
+     height: auto;
+     justify-content:center;
+     align-items: center;
+ 
+    }
+    #home h1{
+        color: brown;
+        text-align: center;
+        font-style: cursive;
+    }
+    #home p{
+        color: rgb(3, 25, 43);
+        text-align:center;
+        font-size: 1.5rem;
+    }
+/* Services Section */
+    .services-container h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(66, 34, 10);
+    }
+    .services-container h1:hover{
+        color:brown;
+       
+    }
+    #services{
+        display:flex;
+        margin: 34px;
+        
+        
+    }
+    #services .box{
+        margin:3px 6px;
+        padding: 12px;
+        border: 2px solid rgb(243, 184, 184);
+        width: 510px;
+        background-color: #0006;
+        transition: all .2s ease-in-out .2s;
+    }
+    #services .box:hover{
+        color:black;
+        background-color: rgb(95, 41, 41);
+        width: 610px;
+        
+    }
+    #services .box h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:rgb(170, 180, 20);
+           
+    }
+    #services .box h2:hover{
+        color:white
+    }
+    #services .box img{
+        height:160px;
+        margin:auto;
+        display:block;
+    }
+ /* Utility Classes */
+ .h-primary{
+     font-size: 2.8rem;
+     padding: 12px;
+ }
+ .h-secondary{
+     font-size:2.8rem;
+     padding:12px;
+ }
+ .btn{
+     padding:6px 15px;
+     border:1px solid white;
+     background-color: brown;
+     color: white;
+     margin:137px;
+     font-size: 1.5rem;
+     border-radius: 10px;
+ }
+ .btn:hover{
+     border:1px solid brown;
+    color:brown;
+    background-color: white;
+
+ }
